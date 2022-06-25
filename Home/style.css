@@ -1,0 +1,264 @@
+.container{
+    background: linear-gradient(180deg, #012F6B 2.4%, #1261C9 50.83%, #012F6B 100%);
+}
+.navbar {
+    width: auto;
+    height: 5.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo{
+    width: 80px;
+    cursor: pointer;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(12, 12, 12);
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.navbar ul li::after{
+    height: 3px;
+    width: 0%;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover::after{
+    width: 100%;
+}
+
+.text{
+    padding-top: 50px;
+    font-family: 'Lato';
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+}
+
+.img{
+    width: 550px;
+    height: 450px;
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.txt {
+    font-family: 'Lato';
+    font-weight: 300;
+    font-size: 80px;
+	background: -webkit-linear-gradient(90.7deg, #FFFFFF 2.48%, #522121 21.02%, #FFFFFF 46.58%, #D9D9D9 64.84%, #FFFFFF 89.94%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.heading{
+    padding: 20px;
+    font-family: 'Lato';
+    font-weight: 300;
+    font-size: 40px;
+    display:flex;
+    justify-content: center;
+    color: #FFFFFF;
+}
+
+.feature{
+    display: flex;
+    align-items: center;
+}
+
+.img1{
+    width: 750px;
+    height: 550px;
+}
+
+.text2{
+    font-family: 'Lato';
+    font-weight: 300;
+    font-size: 20px;
+    width: 500px;
+    color: #FFFFFF;
+}
+
+.card{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.card1{
+    width: 600px;
+    height: 350px;
+    background: #FFFFFF;
+    box-shadow: 2px 4px 8px #313131;
+    border-radius: 25px;
+    display:flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.img2{
+    width: 250px;
+    height: 300px;
+    transition: transform .2s;
+}
+
+.img2:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+}
+
+.text3{
+    text-align:right;
+    padding-right: 50px;
+}
+
+.h1{
+    font-family: 'Lato';
+    font-weight: 300;
+    font-size: 20px;
+    color: #012F6B;
+}
+.p{
+    font-family: 'Lato';
+    font-weight: 300;
+    font-size: 20px;
+}
+hr{
+    border: 1px solid #012F6B;
+    width: 300px;
+}
+
+.card2{
+    width: 400px;
+    height: 350px;
+    background: #FFFFFF;
+    box-shadow: 2px 4px 8px #313131;
+    border-radius: 25px;
+}
+
+.img3{
+    padding: 8px;
+    width: 380px;
+    height: 220px;
+    transition: transform .2s;
+}
+
+.img3:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+}
+
+.text4{
+    text-align:center;
+}
+
+.card3{
+    width: 1100px;
+    height: 350px;
+    background: #FFFFFF;
+    box-shadow: 2px 4px 8px #313131;
+    border-radius: 25px;
+    display:flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.img4{
+    padding-top: 50px;
+}
+
+
+.para{
+    padding: 20px;
+    font-family: 'Lato';
+    font-weight: 250;
+    font-size: 25px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.text5{
+    text-align: left;
+}
+.text5 .h1{
+    font-family: 'Lato';
+    font-weight: 600;
+    font-size: 50px;
+    color: #012F6B;
+}
+
+.text5 .p{
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 25px;
+
+}
+
+.button {
+    background: linear-gradient(100.43deg, #FFFFFF -10.22%, #929292 24.89%, #FFFFFF 57.9%, #929292 83.63%, #FFFFFF 114.98%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    font-family: 'Lato';
+    font-weight: 300;
+    font-size: 25px;
+    color: #070000;
+    width: 150px;
+}
+
+.footer {
+    padding: 40px;
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+
+}
+
+.footer p{
+    text-decoration: none;
+    color: rgb(12, 12, 12);
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.footer i {
+    color: #FFFFFF;
+}
+
+.footer  li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    color: #FFFFFF;
+
+}
+
+.footer  li a{
+    text-decoration: none;
+    color: rgb(12, 12, 12);
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
